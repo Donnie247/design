@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+    list-style: none;
+}
+
+html{
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    line-height: 1.8;
+}
+
+.text-white{
+    color: white;
+}
+
+:root{
+    --primary-color: #f44336;
+    --white-color: white;
+    --text-color: #000;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.line{
+    width: 60px;
+    height: 10px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.sub-title{
+    font-size: 4.8rem;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.half{
+    width: 50%;
+}
+
+.third{
+    width: 33.33333%;
+}
+
+.font-16_pd-16{
+    font-size: 1.6rem;
+    padding: 16px;
+}
+
+.font-16_mg-16{
+    font-size: 1.6rem;
+    margin: 16px 0;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.pd-8{
+    padding: 0 8px;
+}
+
+.mg-8{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.paragraph{
+    margin-top: 48px;
+    padding: 0 8px 16px 8px;
+}
+
+/* HEADER */
+.header{
+    width: 23%;
+    background-color: var(--primary-color);
+    height: 100vh;
+    position: fixed;
+    padding: 8px 16px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.header_title{
+    font-size: 3.4rem;
+    font-weight: bolder;
+    line-height: 1.8;
+    padding: 64px 16px;
+    margin: 10px 0;
+}
+
+.header_title, .header-nav-bar-link{
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.header-nav-bar-link{
+    padding: 8px 16px;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    font-weight: bolder;
+    display: block;
+}
+
+.header-nav-bar-link:hover{
+    cursor: pointer;
+    background-color: var(--white-color);
+    color: var(--text-color);
+}
+
+/* Content */
+.content{
+    margin-left: calc(23% + 40px);
+    margin-right: 40px;
+    padding: 0 16px;
+    margin-top: 80px;
+}
+
+.content .content-header-title{
+    font-size: 6.4rem;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.content-header{
+    padding: 0 8px;
+}
+
+.img-container img{
+    padding: 8px 8px;
+}
+
+.img-container img:hover{
+    opacity: 0.8;
+}
+
+
+.option-container .option-header{
+    background-color: #616161;
+    font-size: 2.4rem;
+    padding: 16px;
+    color: var(--white-color);
+    text-align: center;
+}
+
+.option-body{
+    background-color: #f1f1f1;
+}
+
+.sign-in-buttn{
+    padding: 12px 24px;
+    background-color: white;
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.sign-in.text-center.font-16_pd-16{
+    padding: 24px 16px;
+}
+
+.option-body li {
+    border-bottom: 1px solid #ddd;
+}
